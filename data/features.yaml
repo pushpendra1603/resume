@@ -50,10 +50,18 @@ about:
   - name: "UPENDRA UPADHYAY"
     tagline: "Data Scientist"
     phone: "+91 9460979571"
-    linkedin: "https://www.linkedin.com/in/upendra-upadhyay/"
-    codepen: "https://codepen.io/hdggxin/"
-    facebook: "https://www.facebook.com/upendra.upadhyay.97"
-    github: "https://github.com/upendra1997"
+    linkedin: 
+      url: "https://www.linkedin.com/in/upendra-upadhyay/"
+      text: "upendra-upadhyay"
+    codepen: 
+      url: "https://codepen.io/hdggxin/"
+      text: "hdggxin"
+    facebook: 
+      url: "https://www.facebook.com/upendra.upadhyay.97"
+      text: "upendra.upadhyay.97"
+    github: 
+      url: "https://github.com/upendra1997"
+      text: "upendra1997"
     email: "upendra.upadhyay.97@gmail.com"
     details:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.

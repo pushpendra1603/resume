@@ -6,26 +6,34 @@
   {{end}} {{ if $.Site.Params.display.contact }}<span class="contact"
     >{{ .phone }} | {{ .email }}</span
   >{{ end }}
-  <span>
+  <span class="flex-row">
     {{ if $.Site.Params.display.linkedin }}
-    <a href="{{.linkedin }}" target="_blank">
-      {{ if $.Site.Params.useFontAwesome }}<i class="fab fa-linkedin"></i>{{ end
-      }}
+    <a href="{{.linkedin.url}}" target="_blank">
+      <span>
+        {{ if $.Site.Params.useFontAwesome }}<i class="fab fa-linkedin"></i>{{
+        end }}<text> {{.linkedin.text}} </text>
+      </span>
     </a>
     {{ end }} {{ if $.Site.Params.display.github }}
-    <a href="{{.github}}" target="_blank">
-      {{ if $.Site.Params.useFontAwesome }}<i class="fab fa-github"></i>{{ end
-      }}
+    <a href="{{.github.url}}" target="_blank">
+      <span>
+        {{ if $.Site.Params.useFontAwesome }}<i class="fab fa-github"></i>{{ end
+        }}<text> {{.github.text}} </text>
+      </span>
     </a>
     {{ end }} {{ if $.Site.Params.display.codepen}}
-    <a href="{{.codepen}}" target="_blank">
-      {{ if $.Site.Params.useFontAwesome }}<i class="fab fa-codepen"></i>{{ end
-      }}
+    <a href="{{.codepen.url}}" target="_blank">
+      <span>
+        {{ if $.Site.Params.useFontAwesome }}<i class="fab fa-codepen"></i>{{
+        end }}<text> {{.codepen.text}} </text>
+      </span>
     </a>
     {{ end }} {{ if $.Site.Params.display.facebook}}
-    <a href="{{.facebook}}" target="_blank">
-      {{ if $.Site.Params.useFontAwesome }}<i class="fab fa-facebook"></i>{{ end
-      }}
+    <a href="{{.facebook.url}}" target="_blank">
+      <span>
+        {{ if $.Site.Params.useFontAwesome }}<i class="fab fa-facebook"></i>{{
+        end }}<text> {{.facebook.text}} </text>
+      </span>
     </a>
     {{ end }}
   </span>
