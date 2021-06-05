@@ -3,7 +3,7 @@
         {{ range .Site.Data.projects }}
         <div class="item">
             <h3 class="item-title">{{ .name }}
-                {{ if .link }}<a href="{{ .link }}">
+                {{ if .link }}<a href="{{ .link }}" target="_blank">
                     {{ if $.Site.Params.useFontAwesome }}<i class="fas fa-link"></i>
                     {{else}}&#128279;{{ end }}</a>
                 {{ end }}
