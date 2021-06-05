@@ -43,7 +43,7 @@
     height: 100%;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(12, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
   }
@@ -59,15 +59,18 @@
     flex-direction: column;
     justify-content: center;
     font-family: $font-1;
+    flex-grow: 1;
     h1 {
-      font-size: 64px;
+      font-size: 35px;
       color: $text-color;
       letter-spacing: 0.15rem;
+      display: flex;
+      justify-content: space-around;
     }
   }
   
   header {
-    grid-area: 1 / 1 / 2 / 8;
+    grid-area: 1 / 1 / 1 / 8;
     border-bottom: $border-color 1px solid;
   }
   
