@@ -4,7 +4,7 @@
   {{ if $.Site.Params.display.tagline }}
   <h3 class="tagline">{{ .tagline }}</h3>
   {{end}} {{ if $.Site.Params.display.contact }}<span class="contact"
-    >{{ .phone }} | {{ .email }}</span
+    >{{ .phone }} | <a href="mailto:{{ .email }}">{{ .email }}</a></span
   >{{ end }}
   <span class="flex-row">
     {{ if $.Site.Params.display.linkedin }}
