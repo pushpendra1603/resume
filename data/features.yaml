@@ -1,86 +1,89 @@
+about:
+  name: Upendra Upadhyay
+  tagline: Data Scientist
+  phone: +91 9460979571
+  email: upendra.upadhyay.97@gmail.com
+  links:
+    - url: https://www.linkedin.com/in/upendra-upadhyay/
+      title: upendra-upadhyay
+      icon: fab fa-linkedin
+    - url: https://codepen.io/hdggxin/
+      title: hdggxin
+      icon: fab fa-codepen
+    - url: https://www.facebook.com/upendra.upadhyay.97
+      title: upendra.upadhyay.97
+      icon: fab fa-facebook
+    - url: https://github.com/upendra1997
+      title: upendra1997
+      icon: fab fa-github
+  details: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
+    Aenean nec volutpat arcu. Maecenas quis tempus risus. Curabitur condimentum ligula in erat pharetra porta.
+
+    Nam suscipit nisi a bibendum lacinia.
+
+
 skills:
-  - "PyTorch - Seaborn - Matplotlib"
-  - "Numpy - Pandas"
-  - "Django - Flask - Node.js"
-  - "Express - React.js - Bootstrap"
-  - "Selenium - Git"
+  - groupName: Programming and Systems
+    list: 
+      - Python - Java - Javascript
+      - Linux - Git - AWS
 
-skillsGrouped:
-  - groupName: "Programming and Systems"
-    skills: ["Python - Java - Javascript", "Linux - Git - AWS"]
+  - groupName: Web Development
+    list:
+      - Django - Flask - Node.js
+      - HTML/CSS - React.js
 
-  - groupName: "Web Development"
-    skills: ["Django - Flask - Node.js", "HTML/CSS - React.js"]
-
-  - groupName: "Machine Learning and Visualization"
-    skills:
-      ["Numpy - Pandas - Excel - SQL", "PyTorch - Seaborn - Matplotlib"]
+  - groupName: Machine Learning and Visualization
+    list: 
+      - Numpy - Pandas - Excel - SQL
+      - PyTorch - Seaborn - Matplotlib
 
 interests:
-  - "Programming Languages (Rust, Haskell)"
-  - "Books(SICP, DDIA, Clean Code)"
-  - "Databases"
-  - "Machine & Deep Learning"
-  - "Problem Solving"
+  - Programming Languages (Rust, Haskell)
+  - Books(SICP, DDIA, Clean Code)
+  - Databases
+  - Machine & Deep Learning
+  - Problem Solving
 
 languages:
-  - name: "Hindi"
-    level: "Native"
+  - name: Hindi
+    level: Native
 
-  - name: "English"
-    level: "Professional"
-    certificates: ["YDS: 86.25 - 2018", "TOEFL: 109 - 2021"]
+  - name: English
+    level: Professional
+    certificates: 
+      - "YDS: 86.25 - 2018"
+      - "TOEFL: 109 - 2021"
 
 awards:
-  - name: "Udacity Nanodegree"
+  - title: "Udacity Nanodegree"
     date: "2018"
-    details: "One of 300 selected students in Udacity Nanodegree out of 10,000 students in scholarship challenge. Also completed my nanodegree successfully."
+    subtitle: "One of 300 selected students in Udacity Nanodegree out of 10,000 students in scholarship challenge. Also completed my nanodegree successfully."
 
-  # - name: "Rajasthan Hackathon"
+  # - title: "Rajasthan Hackathon"
   #   date: "2017"
-  #   details: "Leaded a team of 4 in Rajasthan IT day Hackathon."
+  #   subtitle: "Leaded a team of 4 in Rajasthan IT day Hackathon."
   
-  # - name: "Novels"
+  # - title: "Novels"
   #   date: "2017"
-  #   details: "Used to translate light novels from Japanese to English on [wordpress](https://translaboratory.wordpress.com/)."
+  #   subtitle: "Used to translate light novels from Japanese to English on [wordpress](https://translaboratory.wordpress.com/)."
   
-  # - name: "Code Squad"
+  # - title: "Code Squad"
   #   date: "2016"
-  #   details: "Used to run a club in college for teaching C/C++ to Ist years."
+  #   subtitle: "Used to run a club in college for teaching C/C++ to Ist years."
 
-  - name: "CBSE"
+  - title: "CBSE"
     date: "2015"
-    details: "Scored 100/100 in Computer in XII CBSE board exam."
+    subtitle: "Scored 100/100 in Computer in XII CBSE board exam."
 
 certificates:
-  - name: "Supervised Learning: Regression"
+  - title: "Supervised Learning: Regression"
     date: "2020"
-    issued_by: "Coursera"
+    subtitle: "Coursera"
     link: "https://xkcd.com/605/"
 
-  - name: "Supervised Learning: Classification"
+  - title: "Supervised Learning: Classification"
     date: "2020"
-    issued_by: "Coursera"
+    subtitle: "Coursera"
     link: "https://xkcd.com/388/"
-
-about:
-  - name: "UPENDRA UPADHYAY"
-    tagline: "Data Scientist"
-    phone: "+91 9460979571"
-    linkedin: 
-      url: "https://www.linkedin.com/in/upendra-upadhyay/"
-      text: "upendra-upadhyay"
-    codepen: 
-      url: "https://codepen.io/hdggxin/"
-      text: "hdggxin"
-    facebook: 
-      url: "https://www.facebook.com/upendra.upadhyay.97"
-      text: "upendra.upadhyay.97"
-    github: 
-      url: "https://github.com/upendra1997"
-      text: "upendra1997"
-    email: "upendra.upadhyay.97@gmail.com"
-    details:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
-      Aenean nec volutpat arcu. Maecenas quis tempus risus. Curabitur condimentum ligula in erat pharetra porta.
-      Nam suscipit nisi a bibendum lacinia."

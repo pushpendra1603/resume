@@ -1,5 +1,6 @@
-- name: "Flower Species identification 102"
-  company: "Udacity"
+projects:
+- title: "Flower Species identification 102"
+  subtitle: "Udacity"
   link: "https://github.com/upendra1997/Pytorch_Scholarship_Challange"
   date: "November 2018 – January 2019 | PyTorch Scholarship Challenge"
   details: "
@@ -11,8 +12,8 @@
   Tags: Convolutional Neural Network | PyTorch | Deep Learning | Transfer Learning
   "
 
-- name: "JSW Dealer Portal"
-  company: "MERN Stack based webapp"
+- title: "JSW Dealer Portal"
+  subtitle: "MERN Stack based webapp"
   date: "May 2018 – July 2018 | Hyderabad"
   link: "https://jsw-dealer-portal.herokuapp.com"
   details: "
@@ -23,8 +24,8 @@
   Link: [Github](https://github.com/upendra1997/jsw)
   "
 
-- name: "INDRASEYE"
-  company: " Accident Detector"
+- title: "INDRASEYE"
+  subtitle: " Accident Detector"
   link: https://github.com/upendra1997/indraseye
   date: "December 2017 – Present | Rajasthan Hackathon 3.0"
   details: "
@@ -35,8 +36,8 @@
   Tags: Data Science | Recurrent Neural Network | Tensorflow | Opencv
   "
 
-# - name: "FRIDAY"
-#   company: "Disease Detector"
+# - title: "FRIDAY"
+#   subtitle: "Disease Detector"
 #   link: https://github.com/charchit7/Friday
 #   date: "March 2018 – Present | Rajasthan Hackathon 4.0"
 #   details: "
@@ -49,8 +50,8 @@
 
 
 
-- name: "Kalyan Yojana"
-  company: "Django based webapp"
+- title: "Kalyan Yojana"
+  subtitle: "Django based webapp"
   date: "July 2017 – October 2017 | Rajasthan Hackathon 2.0"
   link: "http://hdggxin-kalyan.herokuapp.com/"
   details: "
@@ -62,8 +63,8 @@
   Tags: Web Development | Django | Bootstrap
   "
 
-# - name: "KBC"
-#   company: "Quiz Game"
+# - title: "KBC"
+#   subtitle: "Quiz Game"
 #   link: "https://github.com/upendra1997/dav_projects"
 #   date: "January 2015 – March 2015 | School Project"
 #   details: "
@@ -73,8 +74,8 @@
 #   Tags: JAVA Swing | Mysql
 #   "
 
-# - name: "MARS-X"
-#   company: "Finding Life"
+# - title: "MARS-X"
+#   subtitle: "Finding Life"
 #   date: "September 2014 – November 2014 | School Project"
 #   details: "
 #   It is a graphical project in Alice(Java Based) where you control a rover on mars.  \
@@ -86,8 +87,8 @@
 #   "
 
 
-# - name: "WAVE-S"
-#   company: " Wave Simulator"
+# - title: "WAVE-S"
+#   subtitle: " Wave Simulator"
 #   date: "June 2014 – July 2014 | School Project"
 #   details: "
 #   It is Java swing application through which waves of different frequencies and amplitude may be colored, animated, simulated, superimposed and analyzed.
