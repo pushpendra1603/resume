@@ -1,9 +1,5 @@
 main.paper {
   header .title h1 {
-    // You might want to change the font size if you have a long or a short name
-    // font-size: 4rem;
-
-    // You may disable all capitals name with this.
     text-transform: none;
   }
 
@@ -64,7 +60,3 @@ a {
 .section {
   margin-bottom: 0.5rem;
 }
-
-// footer::after {
-//   content: 'Last updated on {{ now.Format "Monday, January 2, 2006"}}';
-// }

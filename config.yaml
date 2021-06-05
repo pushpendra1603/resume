@@ -89,7 +89,6 @@ params:
     credits: false
     footnote: >-
       You can print this resume in A4 size or save as pdf.
-      {{< youtube w7Ft2ymGmfc >}}
     links:
       - prefix: Contact me on
         title: Linkedin
@@ -99,53 +98,3 @@ params:
         title: Website
         url: "https://upendra1997.github.io"
         icon: fas fa-globe
-
-# [params.display]
-# experience: true
-# education: true
-# languages: false
-# awards: true
-# skills: false
-# skills_grouped: true
-# interests: true
-# linkedin: true
-# github: true
-# codepen: true
-# facebook: true
-# aboutMe: false
-# projects: true
-# publications: false
-# certificates:false
-# avatar: false
-
-# [params.title_as]
-# experience: "Experience"
-# education: "Education"
-# languages: "Languages"
-# awards: "Achievements"
-# skills: "Skills"
-# certificates: "Certifications"
-# interests: "Interests"
-# about_me: "About Me"
-# publications: "Publications"
-# projects: "Projects"
-
-# [params.display.footer]
-# footer: true
-# links: true
-# credits: false
-
-# [params.footer]
-# footnote: "You can print this resume in A4 size or save as pdf."
-
-# [params.footer.links]
-# [[params.footer.links.link]]
-# prefix: "Contact me on"
-# name: "Linkedin"
-# url: "https://linkedin.com/in/upendra-upadhyay/"
-# icon: "fab fa-linkedin"
-
-# [[params.footer.links.link]]
-# prefix: "Check out my"
-# name: "Website"
-# icon: "fas fa-globe"
