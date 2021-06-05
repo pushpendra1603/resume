@@ -26,7 +26,7 @@ tagline = false
 aboutMe = false
 projects = true
 publications = false
-certificates = true
+certificates =false
 avatar = false
 
 [params.title_as]

@@ -1,26 +1,27 @@
 skills:
-  - "Python - R - SQL"
-  - "InfluxDB/TICK Stack"
-  - "Grafana - PowerBI"
-  - "Excel - Minitab - SPSS"
-  - "GAMS - OR-Tools - IBM CPLEX"
-  - "C# - Git - Docker - NGINX"
+  - "PyTorch - Seaborn - Matplotlib"
+  - "Numpy - Pandas"
+  - "Django - Flask - Node.js"
+  - "Express - React.js - Bootstrap"
+  - "Selenium - Git"
 
 skillsGrouped:
-  - groupName: "Databases & Visualization"
-    skills: ["Grafana - Kibana - PowerBI", "InfluxDB - TICK Stack"]
+  - groupName: "Programming and Systems"
+    skills: ["Python - Java - Javascript", "Linux - Git - AWS"]
 
-  - groupName: "Data Analysis & Analytics"
+  - groupName: "Web Development"
+    skills: ["Django - Flask - Node.js", "HTML/CSS - React.js"]
+
+  - groupName: "Machine Learning and Visualization"
     skills:
-      ["Python - R - SQL", "Excel - Minitab - SPSS", "GAMS - PuLP - OR Tools"]
-
-  - groupName: "Programming & Systems"
-    skills: ["C# - Git - Docker - NGINX", "Linux - CentOS RHEL"]
+      ["Numpy - Pandas - Excel - SQL", "PyTorch - Seaborn - Matplotlib"]
 
 interests:
-  - "Data Science"
-  - "AI Applications"
-  - "Optimization Problems"
+  - "Programming Languages (Rust, Haskell)"
+  - "Books(SICP, DDIA, Clean Code)"
+  - "Databases"
+  - "Machine & Deep Learning"
+  - "Problem Solving"
 
 languages:
   - name: "Hindi"
@@ -31,21 +32,21 @@ languages:
     certificates: ["YDS: 86.25 - 2018", "TOEFL: 109 - 2021"]
 
 awards:
+  - name: "Udacity Nanodegree"
+    date: "2018"
+    details: "One of 300 selected students in Udacity Nanodegree out of 10,000 students in scholarship challenge. Also completed my nanodegree successfully."
+
   # - name: "Rajasthan Hackathon"
   #   date: "2017"
   #   details: "Leaded a team of 4 in Rajasthan IT day Hackathon."
   
-  - name: "Udacity Nanodegree"
-    date: "2018"
-    details: "One of 300 selected students in Udacity Nanodegree out of 10,000 students in scholarship challenge. Also completed my nanodegree successfully."
+  # - name: "Novels"
+  #   date: "2017"
+  #   details: "Used to translate light novels from Japanese to English on [wordpress](https://translaboratory.wordpress.com/)."
   
-  - name: "Novels"
-    date: "2017"
-    details: "Used to translate light novels from Japanese to English on [wordpress](https://translaboratory.wordpress.com/)."
-  
-  - name: "Code Squad"
-    date: "2016"
-    details: "Used to run a club in college for teaching C/C++ to Ist years."
+  # - name: "Code Squad"
+  #   date: "2016"
+  #   details: "Used to run a club in college for teaching C/C++ to Ist years."
 
   - name: "CBSE"
     date: "2015"
