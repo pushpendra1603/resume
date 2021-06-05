@@ -22,7 +22,7 @@ linkedin = true
 github = true
 codepen = true
 facebook = true
-tagline = true
+tagline = false
 aboutMe = false
 projects = true
 publications = false
@@ -33,7 +33,7 @@ avatar = false
 experience = "Experience"
 education = "Education"
 languages = "Languages"
-awards = "Awards"
+awards = "Achievements"
 skills = "Skills"
 certificates = "Certifications"
 interests = "Interests"
@@ -44,7 +44,7 @@ projects = "Projects"
 [params.display.footer]
 footer = true
 links = true
-credits = true
+credits = false
 
 [params.footer]
 footnote = "You can print this resume in A4 size or save as pdf. | Last update on 01.09.2020."

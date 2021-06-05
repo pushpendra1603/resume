@@ -31,9 +31,25 @@ languages:
     certificates: ["YDS: 86.25 - 2018", "TOEFL: 109 - 2021"]
 
 awards:
-  - name: "Tübitak - Graduation Project"
+  # - name: "Rajasthan Hackathon"
+  #   date: "2017"
+  #   details: "Leaded a team of 4 in Rajasthan IT day Hackathon."
+  
+  - name: "Udacity Nanodegree"
+    date: "2018"
+    details: "One of 300 selected students in Udacity Nanodegree out of 10,000 students in scholarship challenge. Also completed my nanodegree successfully."
+  
+  - name: "Novels"
     date: "2017"
-    details: "A Decision Support System for 3D Cutting Problem"
+    details: "Used to translate light novels from Japanese to English on [wordpress](https://translaboratory.wordpress.com/)."
+  
+  - name: "Code Squad"
+    date: "2016"
+    details: "Used to run a club in college for teaching C/C++ to Ist years."
+
+  - name: "CBSE"
+    date: "2015"
+    details: "Scored 100/100 in Computer in XII CBSE board exam."
 
 certificates:
   - name: "Supervised Learning: Regression"

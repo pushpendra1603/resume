@@ -38,10 +38,6 @@
                 {{ partial "publications" . }}
             {{ end }}
 
-            {{ if .Site.Params.display.certificates }}
-            {{ partial "certificates" . }}
-            {{ end }}
-
             </div>
 
             <div class="rightSide">
@@ -68,6 +64,11 @@
             {{ if .Site.Params.display.interests }}
                 {{ partial "interests" . }}
             {{ end }}
+
+            {{ if .Site.Params.display.certificates }}
+                {{ partial "certificates" . }}
+            {{ end }}
+
         </div>
     </main>
     {{ if .Site.Params.display.footer.footer }}

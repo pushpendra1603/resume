@@ -1,27 +1,50 @@
-- company: Uber
-  roles:
-    - role: Data Scientist
-      details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
-              Aenean nec volutpat arcu. Maecenas quis tempus risus. Curabitur condimentum ligula in erat pharetra porta. 
-              Nam suscipit nisi a bibendum lacinia. Donec aliquet, nibh dignissim placerat efficit"
-      date: "10.2020 -  Present"
+# - company: Amazon
+#   roles:
+#     - role: SDE
+#       details: "
+      
+#       "
+#       date: "September 2019 -  Present"
 
-- company: Google
-  roles: 
-    - role: Senior Software Developer
-      details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
-              Aenean nec volutpat arcu. Maecenas quis tempus risus. "
-      date: "06.2019 - 10.2020"
-    
-    - role: Junior Software Developer
-      date: "10.2018 - 06.2019"
-      details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
-              Aenean nec volutpat arcu. Maecenas quis tempus risus. "
+# - company: Juspay
+#   roles: 
+#     - role: Full Time Intern
+#       details: "
+#       - Made a testing Framework using Purescript, which will parse logs from prod and run same commands in beta and compare output.
 
-- company: Uber
+#       - Improved the logic of gateway decider for payment gateways.
+
+
+#       Tags: Functional Programming(Haskell, Purescript) | Web Development | Database
+#       "
+#       date: "May - September 2019"
+
+- company: JSW CEMENT
   roles:
-    - role: Driver
-      details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
-              Aenean nec volutpat arcu. Maecenas quis tempus risus. Curabitur condimentum ligula in erat pharetra porta. 
-              Nam suscipit nisi a bibendum lacinia. Donec aliquet, nibh dignissim placerat efficit"
-      date: "2017 - 2018"
+    - role: Intern
+      details: "
+      - Made a web application for JSW cement ltd. using React.js and node.js
+
+      - It will act as a portal for dealers and sub-dealers to create, delete, track their cement orders and help sales & account team batch update information about orders using csv files.
+
+
+      Links: [Github](https://github.com/upendra1997/jsw) | [JSW Dealer Portal](http://jsw-dealer-portal.herokuapp.com/)  \
+
+      Tags: Web Development | React.js | MongoDB | Node.js | Express.js
+      "
+      date: "May - July 2018"
+
+# - company: Hasura
+#   roles:
+#     - role:  Fellowship
+#       details: "
+#       - Developed a chatbot for the Hasura fellowship.
+
+#       - query database using slackbot. 
+
+
+#       Links: [Github](https://github.com/upendra1997/hpdf) | [Hasura](https://hasura.io/hub/projects/upendra1997/slackbot) | [WebApp](https://app.diagnostician94.hasura-app.io/)  \
+
+#       Tags: NoSQL | Chatbot | Backend
+#       "
+#       date: "January - February 2018"

@@ -9,7 +9,7 @@
                 {{ end }}
             </h3>
             {{ .company | markdownify }} - {{ .date }}
-            <p>{{ .details }}</p>
+            <p>{{ .details | markdownify }}</p>
         </div>
         {{ end }}
 </div>
