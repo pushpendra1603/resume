@@ -68,6 +68,8 @@ params:
       style: list
     - feature: certificates
       title: Certifications
+    - feature: opensource
+      title: Open Source
   pages:
     - features:
         # - feature: about

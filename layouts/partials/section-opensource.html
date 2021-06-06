@@ -1,0 +1,16 @@
+{{ range .Data.features.opensources }}
+<div class="item">
+	<h2 class="item-title">
+        {{- if .link }}
+        <a href="{{ .link }}">
+            {{ .title }}
+        </a>
+        {{ else }}
+         {{ .title }}
+        {{- end -}}
+	</h2>
+    <span>
+        {{- .subtitle | markdownify }}
+    </span>
+</div>
+{{ end }}

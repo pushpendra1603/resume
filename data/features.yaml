@@ -88,3 +88,9 @@ certificates:
   #   date: "2020"
   #   subtitle: "Coursera"
   #   link: "https://xkcd.com/388/"
+
+opensources:
+  - title: "Deno"
+    link: "https://github.com/denoland/deno/pull/9894"
+    subtitle: |
+      Javascript engine in rust
