@@ -66,6 +66,8 @@ params:
     - feature: interests
       widget: word-list
       style: list
+    - feature: certificates
+      title: Certifications
   pages:
     - features:
         # - feature: about
@@ -78,8 +80,6 @@ params:
     #       style: IEEE # IEEE, APA, else
     #     - feature: awards
     #       title: Achievements
-    #     - feature: certificates
-    #       title: Certifications
     #     - feature: interests
     #       widget: word-list
     #       style: list

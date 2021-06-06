@@ -1,40 +1,40 @@
 projects:
-- title: "Flower Species identification 102"
-  subtitle: "Udacity"
-  link: "https://github.com/upendra1997/Pytorch_Scholarship_Challange"
-  date: "November 2018 – January 2019 | PyTorch Scholarship Challenge"
-  details: "
-  This project used image augmentation, dropout and validation set to reduce over-fitting to identify the flower species from oxford data set of 102 flower species.  \
+# - title: "Flower Species identification 102"
+#   subtitle: "Udacity"
+#   link: "https://github.com/upendra1997/Pytorch_Scholarship_Challange"
+#   date: "November 2018 – January 2019 | PyTorch Scholarship Challenge"
+#   details: "
+#   This project used image augmentation, dropout and validation set to reduce over-fitting to identify the flower species from oxford data set of 102 flower species.  \
 
-  Scored accuracy of 99.4% on Google test data by an ensemble of two different architecture of RESNET-152 using transfer learning. 
-
-
-  Tags: Convolutional Neural Network | PyTorch | Deep Learning | Transfer Learning
-  "
-
-- title: "JSW Dealer Portal"
-  subtitle: "MERN Stack based webapp"
-  date: "May 2018 – July 2018 | Hyderabad"
-  link: "https://jsw-dealer-portal.herokuapp.com"
-  details: "
-  It is a mobile friendly webapp for dealers and sub-dealers made using react.js, node.js express and mongodb as database.  \
-
-  It will act as a portal for dealers and sub-dealers to create, delete, track their cement orders and help administrator batch update information about orders using csv files.  \
-
-  Link: [Github](https://github.com/upendra1997/jsw)
-  "
-
-- title: "INDRASEYE"
-  subtitle: " Accident Detector"
-  link: https://github.com/upendra1997/indraseye
-  date: "December 2017 – Present | Rajasthan Hackathon 3.0"
-  details: "
-  Made a Web app and neural network to detect Road accident on highways using Long Short-Term Memory Cells and 
-  if there is an accident, Report it to nearest hospitals and police station with mail and photos of the accident.
+#   Scored accuracy of 99.4% on Google test data by an ensemble of two different architecture of RESNET-152 using transfer learning. 
 
 
-  Tags: Data Science | Recurrent Neural Network | Tensorflow | Opencv
-  "
+#   Tags: Convolutional Neural Network | PyTorch | Deep Learning | Transfer Learning
+#   "
+
+# - title: "JSW Dealer Portal"
+#   subtitle: "MERN Stack based webapp"
+#   date: "May 2018 – July 2018 | Hyderabad"
+#   link: "https://jsw-dealer-portal.herokuapp.com"
+#   details: "
+#   It is a mobile friendly webapp for dealers and sub-dealers made using react.js, node.js express and mongodb as database.  \
+
+#   It will act as a portal for dealers and sub-dealers to create, delete, track their cement orders and help administrator batch update information about orders using csv files.  \
+
+#   Link: [Github](https://github.com/upendra1997/jsw)
+#   "
+
+# - title: "INDRASEYE"
+#   subtitle: " Accident Detector"
+#   link: https://github.com/upendra1997/indraseye
+#   date: "December 2017 – Present | Rajasthan Hackathon 3.0"
+#   details: "
+#   Made a Web app and neural network to detect Road accident on highways using Long Short-Term Memory Cells and 
+#   if there is an accident, Report it to nearest hospitals and police station with mail and photos of the accident.
+
+
+#   Tags: Data Science | Recurrent Neural Network | Tensorflow | Opencv
+#   "
 
 # - title: "FRIDAY"
 #   subtitle: "Disease Detector"

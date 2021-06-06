@@ -1,23 +1,29 @@
-# - company: Amazon
-#   roles:
-#     - role: SDE
-#       details: "
-      
-#       "
-#       date: "September 2019 -  Present"
+- company: Amazon
+  roles:
+    - role: SDE
+      date: "September 2019 -  Present"
+      details: |
+        - Worked on breaking down a monolithic webapp to different micro-services, which were async in nature and had better segregation of responsibilities, error handling and recovery mechanisms.
+        - integration with multiple third party systems like MyTime, and implemented mechanisms in place to prevent cascading failures like cache, and dead-letter queue to recover in case they occur.
+        - developed tools, created dashboards, and maintained wikis and checklist to monitor and reduce operational load of team, and share the learning, gotchas, and setup instructions for new members of team.
+        - worked on backend and frontend part of the webapp; and during on-call debugged multiple productions issue, resolved bug and other vulnerabilities risk in legacy webapp.
+        - driven our webapp launch across multiple countries like UAE and India, and supported QA and product with their queries.
+        - experimented with new tech in projects like CDK, etc. and introduced them to team.  \
+        found solution to interesting problems like rate limiting a serverless application.  \
+        and also setup multiple type of infrastructure like serverless, batch job, etc. for asynchronous tasks.
 
-# - company: Juspay
-#   roles: 
-#     - role: Full Time Intern
-#       details: "
-#       - Made a testing Framework using Purescript, which will parse logs from prod and run same commands in beta and compare output.
+- company: Juspay
+  roles: 
+    - role: Full Time Intern
+      details: "
+      - Made a testing Framework using Purescript, which will parse logs from prod and run same commands in beta and compare output.
 
-#       - Improved the logic of gateway decider for payment gateways.
+      - Improved the logic of gateway decider for payment gateways.
 
 
-#       Tags: Functional Programming(Haskell, Purescript) | Web Development | Database
-#       "
-#       date: "May - September 2019"
+      Tags: Functional Programming(Haskell, Purescript) | Web Development | Database
+      "
+      date: "May - September 2019"
 
 - company: JSW CEMENT
   roles:

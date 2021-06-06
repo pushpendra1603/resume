@@ -78,12 +78,13 @@ awards:
     subtitle: "Scored 100/100 in Computer in XII CBSE board exam."
 
 certificates:
-  - title: "Supervised Learning: Regression"
-    date: "2020"
-    subtitle: "Coursera"
-    link: "https://xkcd.com/605/"
+  - title: "Deep Learning NanoDegree"
+    date: "2019"
+    subtitle: |
+      Udacity Scholarship
+    link: "https://confirm.udacity.com/2QJ3DMHL"
 
-  - title: "Supervised Learning: Classification"
-    date: "2020"
-    subtitle: "Coursera"
-    link: "https://xkcd.com/388/"
+  # - title: "Supervised Learning: Classification"
+  #   date: "2020"
+  #   subtitle: "Coursera"
+  #   link: "https://xkcd.com/388/"
