@@ -33,7 +33,9 @@ main.paper {
 }
 
 a {
-  text-decoration: dotted underline;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 1px;
 }
 
 .contact {
@@ -53,6 +55,16 @@ a {
         bookmark-label: content();
         bookmark-level: $i;
       }
+    }
+  }
+
+  a {
+    text-decoration: none;
+
+    &:not(.non-existing)::after {
+      content: " (" attr(href) ")";
+      font-size: 0.25rem;
+      vertical-align: middle;
     }
   }
 }
