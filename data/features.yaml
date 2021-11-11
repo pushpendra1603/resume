@@ -91,6 +91,6 @@ certificates:
 
 opensources:
   - title: "Deno"
-    link: "https://github.com/denoland/deno/pull/9894"
+    link: "https://github.com/denoland/deno/pulls?q=is%3Apr+is%3Aclosed+author%3Aupendra1997+review%3Aapproved"
     subtitle: |
       Javascript engine in rust
