@@ -1,56 +1,49 @@
+- company: Gojek
+  roles:
+    - role: Senior Software Engineer
+      date: November 2021 - Present
+      details: |
+        Worked with Fraud and Sanctions team at [GoPay](https://www.gojek.com/en/th/gopay/) in payments domain.
+        - Helped interviewing and mentoring new hires in team by KT and reading sessions.
+        - Followed TDD, Pair Programming, RFC and Agile methodolgies.   
+        Tags: Load Testing, gRPC, Go, Elxir, Clojure, Redis, PostgreSQL, QuickCheck, Kafka
+
 - company: Amazon
   roles:
     - role: SDE
-      date: "September 2019 -  Present"
+      date: September 2019 - November 2021
       details: |
-        - Worked on breaking down a monolithic webapp to different micro-services, which were async in nature and had better segregation of responsibilities, error handling and recovery mechanisms.
-        - integration with multiple third party systems like MyTime, and implemented mechanisms in place to prevent cascading failures like cache, and dead-letter queue to recover in case they occur.
-        - developed tools, created dashboards, and maintained wikis and checklist to monitor and reduce operational load of team, and share the learning, gotchas, and setup instructions for new members of team.
-        - worked on backend and frontend part of the webapp; and during on-call debugged multiple productions issue, resolved bug and other vulnerabilities risk in legacy webapp.
-        - driven our webapp launch across multiple countries like UAE and India, and supported QA and product with their queries.
-        - experimented with new tech in projects like CDK, etc. and introduced them to team.  \
-        found solution to interesting problems like rate limiting a serverless application.  \
-        and also setup multiple type of infrastructure like serverless, batch job, etc. for asynchronous tasks.
+        Worked with [Logistics](https://logistics.amazon.com/) - last mile scheduling and platform team.
+        - extracting components from monolithic webapp to serverless lambdas.
+        - integrating external services with failure recovery mechanisms like cache and DLQ.
+        - driven our webapp launch across multiple countries like UAE and India using our were multi-tenant WebApp.
+        - worked on backend, frontend and legacy webapp ensuring operational and process excellence.
+        Tags: Java, AWS Lambda, CDK, DynamoDB, ECS, SQS, SNS
 
 - company: Juspay
   roles: 
     - role: Full Time Intern
-      details: "
-      - Made a testing Framework using Purescript, which will parse logs from prod and run same commands in beta and compare output.
-
-      - Improved the logic of gateway decider for payment gateways.
-
-
-      Tags: Functional Programming(Haskell, Purescript) | Web Development | Database
-      "
       date: "May - September 2019"
+      details: |
+        - Made a testing Framework using Purescript, which will parse logs from prod and run same commands in beta and compare output.
+        - Improved the logic of gateway decider for payment gateways.
+        Tags: Functional Programming(Haskell, Purescript) | Web Development | Database
 
 - company: JSW CEMENT
   roles:
     - role: Intern
-      details: "
-      - Made a web application for JSW cement ltd. using React.js and node.js
-
-      - It will act as a portal for dealers and sub-dealers to create, delete, track their cement orders and help sales & account team batch update information about orders using csv files.
-
-
-      Links: [Github](https://github.com/upendra1997/jsw) | [JSW Dealer Portal](http://jsw-dealer-portal.herokuapp.com/)  \
-
-      Tags: Web Development | React.js | MongoDB | Node.js | Express.js
-      "
       date: "May - July 2018"
+      details: |
+        - Made a web application for JSW cement ltd. using React.js and node.js
+        - A portal for dealers and sub-dealers supporting CRUD tracking cement orders to help sales & account team batch update information about orders using csv files.
+        Links: [Github](https://github.com/upendra1997/jsw) | [JSW Dealer Portal](http://jsw-dealer-portal.herokuapp.com/)  \
+        Tags: Web Development | React.js | MongoDB | Node.js | Express.js
 
 # - company: Hasura
 #   roles:
 #     - role:  Fellowship
-#       details: "
-#       - Developed a chatbot for the Hasura fellowship.
-
-#       - query database using slackbot. 
-
-
-#       Links: [Github](https://github.com/upendra1997/hpdf) | [Hasura](https://hasura.io/hub/projects/upendra1997/slackbot) | [WebApp](https://app.diagnostician94.hasura-app.io/)  \
-
-#       Tags: NoSQL | Chatbot | Backend
-#       "
 #       date: "January - February 2018"
+#       details: |
+#         - Developed a chatbot for the Hasura fellowship and integrated with slackbot. 
+#         Links: [Github](https://github.com/upendra1997/hpdf) | [Hasura](https://hasura.io/hub/projects/upendra1997/slackbot) | [WebApp](https://app.diagnostician94.hasura-app.io/)  \
+#         Tags: NoSQL | Chatbot | Backend

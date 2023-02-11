@@ -1,16 +1,11 @@
 projects:
-# - title: "Flower Species identification 102"
-#   subtitle: "Udacity"
-#   link: "https://github.com/upendra1997/Pytorch_Scholarship_Challange"
-#   date: "November 2018 – January 2019 | PyTorch Scholarship Challenge"
-#   details: "
-#   This project used image augmentation, dropout and validation set to reduce over-fitting to identify the flower species from oxford data set of 102 flower species.  \
-
-#   Scored accuracy of 99.4% on Google test data by an ensemble of two different architecture of RESNET-152 using transfer learning. 
-
-
-#   Tags: Convolutional Neural Network | PyTorch | Deep Learning | Transfer Learning
-#   "
+- title: "Flower Species identification 102"
+  subtitle: "Udacity"
+  link: "https://github.com/upendra1997/Pytorch_Scholarship_Challange"
+  date: "November 2018 – January 2019 | PyTorch Scholarship Challenge"
+  details: |
+    Scored accuracy of 99.4% on Google test data by an ensemble of two different architecture of RESNET-152 using transfer learning. 
+    Tags: Convolutional Neural Network | PyTorch | Deep Learning | Transfer Learning
 
 # - title: "JSW Dealer Portal"
 #   subtitle: "MERN Stack based webapp"
@@ -54,14 +49,10 @@ projects:
   subtitle: "Django based webapp"
   date: "July 2017 – October 2017 | Rajasthan Hackathon 2.0"
   link: "http://hdggxin-kalyan.herokuapp.com/"
-  details: "
-  It is a mobile friendly web application where people from remote areas can connect with the government and file their complaints, suggestions and feedback about the government organizations.
-
-
-  Links: [Github](https://github.com/upendra1997/project_akatsuki)  \
-
-  Tags: Web Development | Django | Bootstrap
-  "
+  details: |
+    It is a responsive web app where people from remote areas can connect with the government and give feedback about the government organizations.
+    Links: [Github](https://github.com/upendra1997/project_akatsuki)  \
+    Tags: Web Development | Django | Bootstrap
 
 # - title: "KBC"
 #   subtitle: "Quiz Game"

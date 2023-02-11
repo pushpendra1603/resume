@@ -7,9 +7,9 @@ about:
     - url: https://www.linkedin.com/in/upendra-upadhyay/
       title: upendra-upadhyay
       icon: fab fa-linkedin
-    - url: https://codepen.io/hdggxin/
-      title: hdggxin
-      icon: fab fa-codepen
+    # - url: https://codepen.io/hdggxin/
+    #   title: hdggxin
+    #   icon: fab fa-codepen
     - url: https://www.facebook.com/upendra.upadhyay.97
       title: upendra.upadhyay.97
       icon: fab fa-facebook
@@ -38,11 +38,9 @@ skills:
       - PyTorch - Seaborn - Matplotlib
 
 interests:
-  - Programming Languages (Rust, Haskell)
-  - Books(SICP, DDIA, Clean Code)
-  - Databases
-  - Machine & Deep Learning
-  - Problem Solving
+  - Programming Languages (Rust, Haskell), 
+    Technical Books(SICP, DDIA), Databases,
+    Machine & Deep Learning
 
 languages:
   - name: Hindi
@@ -57,9 +55,10 @@ languages:
 awards:
   - title: "Mentor at Scaler"
     link: https://www.scaler.com/academy/mentor/profile/47f652b35026/
-  - title: "Udacity Nanodegree"
-    date: "2018"
-    subtitle: "One of 300 selected students in Udacity Nanodegree out of 10,000 students in scholarship challenge. Also completed my nanodegree successfully."
+
+  # - title: "Udacity Nanodegree"
+  #   date: "2018"
+  #   subtitle: "One of 300 selected students in Udacity Nanodegree out of 10,000 students in scholarship challenge. Also completed my nanodegree successfully."
 
   # - title: "Rajasthan Hackathon"
   #   date: "2017"
@@ -78,11 +77,29 @@ awards:
     subtitle: "Scored 100/100 in Computer in XII CBSE board exam."
 
 certificates:
-  - title: "Deep Learning NanoDegree"
+  - title: "Udacity Deep Learning"
     date: "2019"
     subtitle: |
-      Udacity Scholarship
+      Nanodegree Scholarship
     link: "https://confirm.udacity.com/2QJ3DMHL"
+    
+  - title: "TensorFlow Developer"
+    date: "2022"
+    subtitle: |
+      DeepLearning.AI
+    link: "https://www.coursera.org/account/accomplishments/professional-cert/BQWQ2BMC5BLM"
+    
+  - title: "DeepLearning.AI"
+    date: "2022"
+    subtitle: |
+      Google Scholarship
+    link: "https://www.coursera.org/account/accomplishments/specialization/MPSZJZVFSYLQ"
+
+  - title: "Professional MLE"
+    date: "2023"
+    subtitle: |
+      Google Cloud
+    link: "https://www.credential.net/b961b10f-e5fc-432a-ad34-466c7b06698b"
 
   # - title: "Supervised Learning: Classification"
   #   date: "2020"
