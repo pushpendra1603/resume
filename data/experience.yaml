@@ -4,46 +4,34 @@
       date: November 2021 - Present
       details: |
         Worked with Fraud and Sanctions team at [GoPay](https://www.gojek.com/en/th/gopay/) in payments domain.
-        - Helped interviewing and mentoring new hires in team by KT and reading sessions.
-        - Followed TDD, Pair Programming, RFC and Agile methodolgies.   
-        Tags: Load Testing, gRPC, Go, Elxir, Clojure, Redis, PostgreSQL, QuickCheck, Kafka
+        - Lead projects for Gopay Savings integration with risk rule engine, and its integration with *segmentation service* to prevent promotion abuse, and had monthly savings of **~120M IDR**.
+        - Optimized rule engine performance by enabling lazy evaluation, short circuiting, handrolling *custom* parser and parallel evaluation; which reduced time taken by parsing from ~1 second to ~250 ms, around **~75%** faster.
+        - Implemented **Kong** level lua plugin for attestation to stop *scripted attacks*, which blocked around: 30K requests per week; **0.033%** of all requests about 4.5K per day.
+        - Authored various in-depth RCAs and RFCs, revolving around enrichment and risk context service for auto routing of customer complaint tickets.
+        - Participated in hiring, mentoring new hires in team by KT, TDD, pairing and reading sessions regarding functional programming, **Clojure** *design patterns*, benchmarking and performance tuning.
+
+        **Tags**: Load Testing | gRPC | Go | Elxir | Clojure | Redis | PostgreSQL | QuickCheck | Kafka | Lua | Kong | TDD
+
 
 - company: Amazon
   roles:
     - role: SDE
       date: September 2019 - November 2021
       details: |
-        Worked with [Logistics](https://logistics.amazon.com/) - last mile scheduling and platform team.
-        - extracting components from monolithic webapp to serverless lambdas.
-        - integrating external services with failure recovery mechanisms like cache and DLQ.
+        Worked with [Logistics](https://logistics.amazon.com/) - Last Mile Scheduling and Platform team.
+        - Extracting components from monolithic webapp to serverless lambdas.
+        - Integrating external services with failure recovery mechanisms like **cache** and **DLQ**.
         - driven our webapp launch across multiple countries like UAE and India using our were multi-tenant WebApp.
         - worked on backend, frontend and legacy webapp ensuring operational and process excellence.
-        Tags: Java, AWS Lambda, CDK, DynamoDB, ECS, SQS, SNS
+
+        **Tags**: Java | AWS Lambda | CDK | DynamoDB | ECS | SQS | SNS
 
 - company: Juspay
-  roles: 
+  roles:
     - role: Full Time Intern
       date: "May - September 2019"
       details: |
-        - Made a testing Framework using Purescript, which will parse logs from prod and run same commands in beta and compare output.
+        - Made a testing Framework using **Purescript**, which will parse logs from prod and run same commands in beta and compare output.
         - Improved the logic of gateway decider for payment gateways.
-        Tags: Functional Programming(Haskell, Purescript) | Web Development | Database
 
-- company: JSW CEMENT
-  roles:
-    - role: Intern
-      date: "May - July 2018"
-      details: |
-        - Made a web application for JSW cement ltd. using React.js and node.js
-        - A portal for dealers and sub-dealers supporting CRUD tracking cement orders to help sales & account team batch update information about orders using csv files.
-        Links: [Github](https://github.com/upendra1997/jsw) | [JSW Dealer Portal](http://jsw-dealer-portal.herokuapp.com/)  \
-        Tags: Web Development | React.js | MongoDB | Node.js | Express.js
-
-# - company: Hasura
-#   roles:
-#     - role:  Fellowship
-#       date: "January - February 2018"
-#       details: |
-#         - Developed a chatbot for the Hasura fellowship and integrated with slackbot. 
-#         Links: [Github](https://github.com/upendra1997/hpdf) | [Hasura](https://hasura.io/hub/projects/upendra1997/slackbot) | [WebApp](https://app.diagnostician94.hasura-app.io/)  \
-#         Tags: NoSQL | Chatbot | Backend
+        **Tags**: Functional Programming - Haskell & Purescript | Web Development | Database

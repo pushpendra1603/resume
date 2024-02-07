@@ -17,30 +17,55 @@ about:
       title: upendra1997
       icon: fab fa-github
   details: |
-    I am Software Engineer who likes problem solving, programming languages, databases, AI and learning new things in general. I like to dabble in solving problems in Haskell, Rust and read books like SICP, DDIA, clean code, etc. 
+    I am Software Engineer who likes problem solving, programming languages, databases, AI and learning new things in general. I like to dabble in solving problems in Haskell, Rust and read books like SICP, DDIA, clean code, etc.
     Few of my guilty pleasures are reading books(Academic/LightNovels/Wuxia/Manga), watching Anime, TV-Shows, and just browsing YouTube.
 
 
 skills:
-  - groupName: Programming and Systems
-    list: 
-      - Python - Java - Javascript
-      - Linux - Git - AWS
+  - groupName: Programming Languages
+    list:
+      - Clojure
+      - Python
+      - Java
+      - SQL
+      - Go
+      - Elixir
+      - Lua
+      - Javascript
+      - Bash
+
+  - groupName: Systems
+    list:
+      - Linux
+      - Git
+      - AWS
+      - PostgreSQL
+      - Redis
+      - Grafana
+      - Kibana
+      - Gitlab Pipelines
+      - Elastic Search
+
+  - groupName: Machine Learning
+    list:
+      - Numpy
+      - Pandas
+      - Excel
+      - PyTorch
+      - Seaborn
+      - Matplotlib
 
   - groupName: Web Development
     list:
-      - Django - Flask - Node.js
-      - HTML/CSS - React.js
-
-  - groupName: Machine Learning and Visualization
-    list: 
-      - Numpy - Pandas - Excel - SQL
-      - PyTorch - Seaborn - Matplotlib
+      - Spring
+      - Django
+      - Flask
+      - Node.js
+      - React.js
+      - HTML/CSS
 
 interests:
-  - Programming Languages (Rust, Haskell), 
-    Technical Books(SICP, DDIA), Databases,
-    Machine & Deep Learning
+  - Programming Languages(Rust, Haskell), Databases, Machine & Deep Learning, Technical Books
 
 languages:
   - name: Hindi
@@ -48,7 +73,7 @@ languages:
 
   - name: English
     level: Professional
-    certificates: 
+    certificates:
       - "YDS: 86.25 - 2018"
       - "TOEFL: 109 - 2021"
 
@@ -63,11 +88,11 @@ awards:
   # - title: "Rajasthan Hackathon"
   #   date: "2017"
   #   subtitle: "Leaded a team of 4 in Rajasthan IT day Hackathon."
-  
+
   # - title: "Novels"
   #   date: "2017"
   #   subtitle: "Used to translate light novels from Japanese to English on [wordpress](https://translaboratory.wordpress.com/)."
-  
+
   # - title: "Code Squad"
   #   date: "2016"
   #   subtitle: "Used to run a club in college for teaching C/C++ to Ist years."
@@ -82,13 +107,13 @@ certificates:
     subtitle: |
       Nanodegree Scholarship
     link: "https://confirm.udacity.com/2QJ3DMHL"
-    
+
   - title: "TensorFlow Developer"
     date: "2022"
     subtitle: |
       DeepLearning.AI
     link: "https://www.coursera.org/account/accomplishments/professional-cert/BQWQ2BMC5BLM"
-    
+
   - title: "DeepLearning.AI"
     date: "2022"
     subtitle: |
@@ -101,13 +126,8 @@ certificates:
       Google Cloud
     link: "https://www.credential.net/b961b10f-e5fc-432a-ad34-466c7b06698b"
 
-  # - title: "Supervised Learning: Classification"
-  #   date: "2020"
-  #   subtitle: "Coursera"
-  #   link: "https://xkcd.com/388/"
-
 opensources:
   - title: "Deno"
-    link: "https://github.com/denoland/deno/pulls?q=is%3Apr+is%3Aclosed+author%3Aupendra1997+review%3Aapproved"
+    link: "https://github.com/denoland/deno/pulls?q=is%3Apr+is%3Aclosed+author%3Aupendra1997"
     subtitle: |
       Javascript engine in rust
