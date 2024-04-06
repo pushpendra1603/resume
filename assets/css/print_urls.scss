@@ -1,0 +1,26 @@
+@media print{
+  html, body {
+    @for $i from 1 through 6 {
+      h#{$i} {
+        bookmark-label: content();
+        bookmark-level: $i;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+
+    &:not(.non-existing)::after {
+      content: " (" attr(href) ")";
+      font-size: 0.25rem;
+      vertical-align: middle;
+    }
+  }
+}
+
+// a {
+//   text-decoration-line: underline;
+//   text-decoration-style: dotted;
+//   text-decoration-thickness: 1px;
+// }
