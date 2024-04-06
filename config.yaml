@@ -51,6 +51,7 @@ params:
   css:
     - custom.scss
     - print_urls.scss
+    # - not_print_urls.scss
   header:
     avatar: false
     contact: true

@@ -1,0 +1,7 @@
+@media print{
+  a {
+    &:not(.non-existing)::after {
+      content: none;
+    }
+  }
+}
