@@ -4,8 +4,8 @@
       date: November 2021 - Present
       details: |
         Worked with Fraud and Sanctions team at [GoPay](https://www.gojek.com/en/th/gopay/) in payments domain.
-        - Lead projects for Gopay Savings integration with risk rule engine, and its integration with *segmentation service* to prevent promotion abuse, and had monthly savings of **~120M IDR**.
-        - Optimized rule engine performance by enabling lazy evaluation, short circuiting, handrolling *custom* parser and parallel evaluation; which reduced time taken by parsing from ~1 second to ~250 ms, around **~75%** faster.
+        - Lead projects for *Gopay Savings* integration with risk rule engine, and its integration with *segmentation service* to prevent promotion abuse, and had monthly savings of **~120M IDR**.
+        - Optimized rule engine performance by enabling lazy evaluation, short circuiting, handrolling *custom* parser and parallel evaluation; which reduced time taken by parsing from *~1 second* to *~250 ms*, around **~75%** faster.
         - Implemented **Kong** level lua plugin for attestation to stop *scripted attacks*, which blocked around: 30K requests per week; **0.033%** of all requests about 4.5K per day.
         - Authored various in-depth RCAs and RFCs, revolving around enrichment and risk context service for auto routing of customer complaint tickets.
         - Participated in hiring, mentoring new hires in team by KT, TDD, pairing and reading sessions regarding functional programming, **Clojure** *design patterns*, benchmarking and performance tuning.
@@ -19,10 +19,11 @@
       date: September 2019 - November 2021
       details: |
         Worked with [Logistics](https://logistics.amazon.com/) - Last Mile Scheduling and Platform team.
-        - Extracting components from monolithic webapp to serverless lambdas.
-        - Integrating external services with failure recovery mechanisms like **cache** and **DLQ**.
-        - driven our webapp launch across multiple countries like UAE and India using our were multi-tenant WebApp.
-        - worked on backend, frontend and legacy webapp ensuring operational and process excellence.
+        - Extracting components from monolithic webapp to microservice components, serverless **Lambdas** and **Batch**.
+        - Integrating external services with failure recovery mechanisms like **cache**, **DLQ**, and **rate-limiting**.
+        - Driven our webapp launch across multiple countries like UAE and India using our **multi-tenant** platform webapp.
+        - Worked on backend, frontend and legacy webapp ensuring operational and process excellence by driving adoption to new technologies like **CDK**, fixing vulnerabilities, and production issues.
+        - Maintaing dashboards, alerts, wikis for design documents, onboarding and having **brown bag** sessions on new technologies and gothchas
 
         **Tags**: Java | AWS Lambda | CDK | DynamoDB | ECS | SQS | SNS
 
@@ -32,6 +33,6 @@
       date: "May - September 2019"
       details: |
         - Made a testing Framework using **Purescript**, which will parse logs from prod and run same commands in beta and compare output.
-        - Improved the logic of gateway decider for payment gateways.
+        - Improved the logic of gateway decider for payment gateways using exponential backoff and other heuristics.
 
         **Tags**: Functional Programming - Haskell & Purescript | Web Development | Database

@@ -6,7 +6,7 @@ main.paper {
   }
 
   .section-experience p {
-    line-height: 1.2;
+    line-height: 1.1;
   }
 
   .grid {
@@ -14,7 +14,7 @@ main.paper {
 
     header {
       grid-area: 1 / 1 / 1 / 8;
-      padding-bottom: 0.25rem;
+      padding-bottom: 0.1rem;
     }
 
     .title {
@@ -27,7 +27,7 @@ main.paper {
     }
   }
 
-  padding: .2in .2in;
+  padding: .1in .1in;
 }
 
 .job_title {
@@ -73,13 +73,13 @@ a {
 }
 
 .section {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
 }
 
 li {
-  margin: 0.25rem 0;
+  margin: 0.1rem 0;
 }
 
 .paper p {
-  margin: 0.25rem 0;
+  margin: 0.1rem 0;
 }
