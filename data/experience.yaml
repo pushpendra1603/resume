@@ -3,7 +3,7 @@
     - role: Senior Software Engineer
       date: November 2021 - Present
       details: |
-        Worked with Fraud and Sanctions team at [GoPay](https://www.gojek.com/en/th/gopay/) in payments domain.
+        Worked with Fraud and Sanctions team at [GoPay](https://www.gojek.com/en-id/gopay) in payments domain.
         - Lead projects for *Gopay Savings* integration with risk rule engine, and its integration with *segmentation service* to prevent promotion abuse, and had monthly savings of **~120M IDR**.
         - Optimized rule engine performance by enabling lazy evaluation, short circuiting, handrolling *custom* parser and parallel evaluation; which reduced time taken by parsing from *~1 second* to *~250 ms*, around **~75%** faster.
         - Implemented **Kong** level lua plugin for attestation to stop *scripted attacks*, which blocked around: 30K requests per week; **0.033%** of all requests, i.e. ~4.5K per day.
