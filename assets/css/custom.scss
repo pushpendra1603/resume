@@ -18,14 +18,14 @@ main.paper {
     .title {
       flex-grow: 1;
       h1 {
-        font-size: 35px;
+        font-size: 2rem;
         display: flex;
         justify-content: space-around;
       }
     }
   }
 
-  padding: .1in .1in;
+  padding: 3px 3px;
 }
 
 .job_title {
