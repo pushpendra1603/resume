@@ -131,3 +131,7 @@ opensources:
     link: "https://github.com/denoland/deno/pulls?q=is%3Apr+is%3Aclosed+author%3Aupendra1997"
     subtitle: |
       Javascript engine in rust
+  - title: "Unison"
+    link: "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Aclosed+author%3Aupendra1997"
+    subtitle: |
+      A language from the future

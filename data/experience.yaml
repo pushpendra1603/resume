@@ -7,7 +7,7 @@
         - Lead project for *Gopay Savings* integration with risk rule engine, and its integration with *segmentation service* to prevent promotion abuse. This required tight collaboration across multiple microservices and teams and had monthly savings of **~120M IDR**.
         - Headed rule engine performance activites by enabling lazy evaluation, optimizing GC, handrolling *custom* parser and parallel evaluation; which reduced time taken by parsing from *~1 second* to *~250 ms*, around **~75%** faster.
         - Piloted **Kong** level lua plugin for attestation to stop *scripted attacks* in collaboration with the mobile and security team. Which blocked around: 30K requests per week; **0.033%** of all requests; ~4.5K per day.
-        - Authored various in-depth RCAs and RFCs, revolving around enrichment and risk context service for auto reply of customer complaint tickets.
+        - Authored comprehensive RCAs and RFCs focused on enrichment and risk context services for automating customer complaint responses and managing stakeholder relations across various projects.
         - Mentored, Hired employee for GoJek by KT, TDD, pairing and reading sessions regarding functional programming, **Clojure** *design patterns*, benchmarking and performance tuning.
 
         **Tags**: Load Testing | gRPC | Go | Elxir | Clojure | Redis | PostgreSQL | QuickCheck | Kafka | Lua | Kong | TDD
