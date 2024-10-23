@@ -4,7 +4,7 @@ main.paper {
   }
 
   .section-experience p {
-    line-height: 1;
+    line-height: normal;
   }
 
   .grid {
@@ -34,7 +34,8 @@ main.paper {
     }
 
     [class^="section section-"] {
-      // margin-bottom: 10px;
+      // same as .section style
+      margin-bottom: 0.3rem;
     }
   }
 
@@ -47,6 +48,10 @@ main.paper {
 
     [class^="section section-"] {
       margin-bottom: 10px;
+    }
+
+    .item {
+      margin-bottom: 5px;
     }
   }
 
@@ -81,13 +86,14 @@ a {
 
 
 .section {
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.3rem;
 }
 
 li {
-  margin: 0.1rem 0;
+  margin: 0rem 0;
 }
 
 .paper p {
-  margin: 0.1rem 0;
+  margin: 0rem 0;
+  line-height: normal;
 }
