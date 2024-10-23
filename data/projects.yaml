@@ -1,9 +1,18 @@
 projects:
-- title: "Flower Species identification 102"
-  subtitle: "Udacity"
-  link: "https://github.com/upendra1997/Pytorch_Scholarship_Challange"
-  date: "November 2018 – January 2019 | PyTorch Scholarship Challenge"
+- title: "Nand2Tetris"
+  # subtitle: "Coursera"
+  link: "https://github.com/pushpendra1603/nand2tetris/tree/main/projects"
+  # date: "November 2018 – January 2019 | PyTorch Scholarship Challenge"
   details: |
-    Scored accuracy of **99.4%** on Google test data by an ensemble of two different architecture of **RESNET-152** using transfer learning.
+    Implemented a complete computer system from scratch, starting with NAND gates, progressing to a functional CPU, and finishing with a working OS.
 
-    **Tags**: Convolutional Neural Network | PyTorch | Deep Learning | Transfer Learning
+#    **Tags**: Convolutional Neural Network | PyTorch | Deep Learning | Transfer Learning
+
+- title: "Machine Learning Course by Andrew Ng"
+  # subtitle: "Coursera"
+  link: "https://github.com/pushpendra1603/Machine-Learning-by-Andrew-Ng"
+  # date: "November 2018 – January 2019 | PyTorch Scholarship Challenge"
+  details: |
+    Worked on projects like developing a neural network to classify handwritten digits and building a movie recommendation system using collaborative filtering.
+
+#    **Tags**: Convolutional Neural Network | PyTorch | Deep Learning | Transfer Learning

@@ -17,6 +17,7 @@ main.paper {
 
     .title {
       flex-grow: 1;
+
       h1 {
         font-size: 1.5rem;
         display: flex;
@@ -25,11 +26,41 @@ main.paper {
     }
   }
 
-  padding: 3px 3px;
-}
+  .left-column {
+    // line-height: 1rem;
 
-.job_title {
-  font-style: italic;
+    .section-title {
+      font-size: 1.2rem;
+    }
+
+    [class^="section section-"] {
+      // margin-bottom: 10px;
+    }
+  }
+
+  .right-column {
+    // line-height: 1rem;
+
+    .section-title {
+      font-size: 1.2rem;
+    }
+
+    [class^="section section-"] {
+      margin-bottom: 10px;
+    }
+  }
+
+  .job-title {
+    font-weight: bold;
+    // font-style: italic;
+  }
+
+  .date {
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  padding: 3px 3px;
 }
 
 a {
