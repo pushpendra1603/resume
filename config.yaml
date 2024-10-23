@@ -1,6 +1,6 @@
-baseURL: "/resume/"
+baseURL: "http://127.0.0.1/"
 languageCode: "en-us"
-title: "Resume | UPENDRA UPADHYAY"
+title: "Resume | PUSHPENDRA UPADHYAY"
 disableKinds: ["taxonomy", "term", "page", "section", "RSS", "sitemap", "robotsTXT", "404"]
 theme: "resume-A4"
 
@@ -54,24 +54,26 @@ params:
     # - not_print_urls.scss
   header:
     avatar: false
-    contact: true
+    contact: false
     tagline: false
     links: true
   side:
     - feature: education
-    - feature: awards
-      title: Achievements
+    # - feature: awards
+    #   title: Achievements
     # - feature: languages
     - feature: skills
       widget: word-list
       style: compact # list, compact, title-list
+    - feature: coursework
+      title: Coursework
     - feature: interests
       widget: word-list
       style: list
-    - feature: certificates
-      title: Certifications
-    - feature: opensource
-      title: Open Source
+    # - feature: certificates
+    #   title: Certifications
+    # - feature: opensource
+    #   title: Open Source
   pages:
     - features:
         # - feature: about
@@ -96,9 +98,9 @@ params:
     links:
       - prefix: Contact me on
         title: Linkedin
-        url: "https://linkedin.com/in/upendra-upadhyay/"
+        url: "https://www.linkedin.com/in/pushpendra-upadhyay-/"
         icon: "fab fa-linkedin"
       - prefix: Check out my
         title: Website
-        url: "https://upendra1997.github.io"
+        url: "https://pushpendra1603.github.io"
         icon: fas fa-globe
