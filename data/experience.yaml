@@ -4,28 +4,29 @@
       date: August 2022 - September 2023
       details: |
         - Improved vehicle identification accuracy by developing a custom algorithm using *Levenshtein string matching* and *Elasticsearch*. Enhanced brand matching to **~99.6%**, model matching from **~91.2% to ~96.4%**, and variant matching from **~50% to ~75%**.
-        - Optimized vehicle service performance by reducing mean request latency from **~5 seconds** to **~300 ms**. Cut memory usage from 140 GB to 10 GB, reduced CPU cores from 20 to 2, and pod count from 40 to 10, improving scalability, efficiency, and cost savings.
-        - Refactored the core tag and vehicle whitelisting workflow, added unit tests and followed **SOLID** principles, enhancing B2B client satisfaction during vehicle onboarding.
-        - Elevated *UX* and boosted *user retention* in the B2C app by incorporating engaging features, like spin-the-wheel incentives, promo rewards, streak challenges, and interactive pop quizzes, seamlessly integrated into the vehicle onboarding process for society users.
+        - Optimized vehicle service by cutting memory usage from 140 GB to 10 GB, reducing CPU cores from 20 to 2, and pod count from 40 to 10, improving scalability, efficiency, and cost savings. *Mean request latency* was reduced from **~5 seconds to ~300 ms**.
+        - Refactored the core tag and vehicle whitelisting workflow, added unit tests, and applied **SOLID** principles, improving B2B client satisfaction during vehicle onboarding.
+        - Elevated *UX* and increased *user retention* in the B2C app by adding engaging features such as spin-the-wheel, promotional rewards, streak, and pop quizzes, all seamlessly integrated into the vehicle onboarding process for society users.
 
-        **Tags :** Python | Django | TDD | pytest | Load Testing | Elasticsearch | Kafka | Kubernetes
+        **Tags :** Django | unittest | Elasticsearch | Kubernetes | Load Testing | Microservices | Software Integration
 #        - Contributed to the successful launch of the Surajkund Mela project within a tight 15-day timeline. Implemented new workflows, including n-entry per pass systems, centralized cloud servers, and managed devices not on the local network due to infra limitations.
 #        - Created a cron job using Pyppeteer and BeautifulSoup to scrape Cardekho and Carwale for new vehicle brands, models, and variants. This automation significantly streamlined the process of incorporating new vehicle variants into our system, reducing manual effort.
 #        - Created an OS image for Parking Management System (PMS) server, pre-installing essential packages. The image enhances security by tracking user activity and restricting access by roles, and supports remote deployment, reducing on-site setup complexity.
 #        - Integrated a third-party Parking Guidance System (PGS) into the existing Parking Management System (PMS). Slot sensor data was transmitted via webhook APIs, enabling real-time display of available parking slots on LED screens to guide vehicles efficiently.
 #        - Facilitated the migration of the Pass service to a new microservice, introducing new features while maintaining backward compatibility. Migrating from Python to Go improved API performance, significantly reduced latency to around 100ms.
+#        **Tags :** Django | unittest | Elasticsearch | Kubernetes | Load Testing | Microservices | Software integration
 
     - role: SDE-2
       date: September 2023 - Present
       details: |
-        - Reduced firmware Docker image size from 3 GB to 30 MB, optimizing storage on limited SD card space. Also developed a bash script for remote deployment of the same docker image via Docker Hub, enabling faster firmware updates across multiple sites.
-        - Optimized a highly available data sync system called "cloud actions", for seamless communication between 10,000 active devices distributed over multiple sites. Achieved an average data sync time of 30 seconds, using MQTT and Kafka for efficient data exchange.
-        - Developed firmware for an in-house TVM to automate vehicle entries without operator intervention. Integrated using Orange Pi, the inhouse-TVM reduced costs by 5x compared to third-party solutions and provided improved maintainability and customisability.
-        - Developed firmware for an in-house Parking Guidance System using ultrasonic sensors for real-time tracking of parking slot availability. Using the Modbus protocol to relay data to a central server, the system guides vehicle to available spot via LED displays.
-        - Developed firmware for an in-house Health Monitoring Device (HMD) to track voltage fluctuations in hardware. The firmware written on ESP32-S3 using ESP-IDF framework, retrieves cloud config, monitors fluctuations, logs data locally, and shares it to cloud server.
-        - Mentored interns through KT, pair programming, and code reviews, while also conducting sessions on technical topics. Documented key workflows for future reference.
+        - Reduced firmware Docker image size from **3 GB to 30 MB**, optimizing storage on limited SD card space. Developed a bash script for remote deployment of the same docker image via **Docker Hub**, enabling faster firmware updates across multiple sites.
+        - Optimized a highly available data sync system, *“Cloud Actions”*, for seamless communication between **~10,000** active devices across multiple sites. Achieved an average data sync time of **~30 seconds** using *MQTT* and *Kafka*.
+        - Developed firmware for an in-house *TVM* to automate vehicle entries without operator intervention. Integrated with **Orange Pi**, the in-house TVM reduced costs by **5x** compared to third-party solutions while enhancing maintainability and customizability.
+        - Developed firmware for an in-house *Parking Guidance System (PGS)* using ultrasonic sensors to track parking slot availability. The system, utilizing the **Modbus** protocol to relay sensor data to a central server, guides vehicles to slots via LED displays.
+        - Developed firmware for an in-house *Health Monitoring Device (HMD)* to track voltage fluctuations in hardware. The firmware written on **ESP32-S3** using *ESP-IDF* framework, retrieves cloud config, monitors fluctuations, and uploads it to the cloud server.
+        - Mentored interns through *KT*, *pair programming*, *code reviews*, and *technical sessions*.
 
-        **Tags :** Load Testing | Redis | PostgreSQL | QuickCheck | Kafka | Lua | Kong | TDD
+        **Tags :** Docker | Go | MQTT | Kafka | C++ | Raspberry Pi | ESP-IDF | FreeRTOS
 #        - Repurposed the existing ANPR system to function as a camera-based Parking Guidance System (PGS) for detecting available parking slots. Utilized machine learning to identify vehicles and match them to predefined slot boundaries, accurately tracking occupancy. The system also captures images when slot statuses change, ensuring comprehensive monitoring of vehicle movements.
 #        - Led the integration of an in-house LED system to boost security and provide real-time status updates for entry/exit processes. Powered by ESP-32 firmware, the system Secure WebSocket communication, enables dynamic message display, and animations.
 #        - Integrated a personalized message feature into the in-house LED system, enabling custom messages during vehicle entry and exit. Users can define their own messages, and society admins can display important notifications to individuals or groups, dynamically based on real-time events.
@@ -36,11 +37,11 @@
     - role: Full Time Intern
       date: "March - August 2022"
       details: |
-        - Gained proficiency in TDD and applied it during development using JUnit and mockito Frameworks, contributing to more reliable software development practices.
-        - Prevented Data Injection attacks via bean-level input validation of the queried value.
-        - Learned about the fundamentals of certificate lifecycle Management principles and explored various certificate auto-enrollment protocols, including ACME, EST, and SCEP.
+        - Gained proficiency in **TDD** and applied it using *JUnit* and *Mockito* frameworks, enhancing software reliability and testing efficiency.
+        - Prevented **Data Injection** attacks via *bean-level* input validation of the queried value.
+        - Learned about the fundamentals of *certificate lifecycle Management* principles and explored various certificate auto-enrollment protocols, including **ACME**, **EST**, and **SCEP**.
 
-        **Tags :** Functional Programming - Haskell & Purescript | Web Development | Database
+        **Tags :** Java | Junit | Mockito | MySQL | MongoDB | PKI | TLS | SSL | Cryptography
 #        - Working with Golang for building the EST client to make the application self serviceable to the end user, enhancing the existing features as well as building the new features.
 #        - Leveraging microservices architecture to achieve certificate life cycle actions.
 #        - automated the testing and setting up of appviewx environment using python with robot framework.
