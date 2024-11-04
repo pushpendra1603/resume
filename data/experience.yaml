@@ -8,7 +8,7 @@
         - Refactored the core tag and vehicle whitelisting workflow, added unit tests, and applied **SOLID** principles, improving B2B client satisfaction during vehicle onboarding.
         - Elevated *UX* and increased *user retention* in the B2C app by adding engaging features such as spin-the-wheel, promotional rewards, streak, and pop quizzes, all seamlessly integrated into the vehicle onboarding process for society users.
 
-        **Tags :** Django | unittest | Elasticsearch | Kubernetes | Load Testing | Microservices | Software Integration
+        **Tags :** Django | unittest | Elasticsearch | Kubernetes | Load Testing | Microservices
 #        - Contributed to the successful launch of the Surajkund Mela project within a tight 15-day timeline. Implemented new workflows, including n-entry per pass systems, centralized cloud servers, and managed devices not on the local network due to infra limitations.
 #        - Created a cron job using Pyppeteer and BeautifulSoup to scrape Cardekho and Carwale for new vehicle brands, models, and variants. This automation significantly streamlined the process of incorporating new vehicle variants into our system, reducing manual effort.
 #        - Created an OS image for Parking Management System (PMS) server, pre-installing essential packages. The image enhances security by tracking user activity and restricting access by roles, and supports remote deployment, reducing on-site setup complexity.
@@ -20,13 +20,13 @@
       date: September 2023 - Present
       details: |
         - Reduced firmware Docker image size from **3 GB to 30 MB**, optimizing storage on limited SD card space. Developed a bash script for remote deployment of the same docker image via **Docker Hub**, enabling faster firmware updates across multiple sites.
-        - Optimized a highly available data sync system, *“Cloud Actions”*, for seamless communication between **~10,000** active devices across multiple sites. Achieved an average data sync time of **~30 seconds** using *MQTT* and *Kafka*.
-        - Developed firmware for an in-house *TVM* to automate vehicle entries without operator intervention. Integrated with **Orange Pi**, the in-house TVM reduced costs by **5x** compared to third-party solutions while enhancing maintainability and customizability.
-        - Developed firmware for an in-house *Parking Guidance System (PGS)* using ultrasonic sensors to track parking slot availability. The system, utilizing the **Modbus** protocol to relay sensor data to a central server, guides vehicles to slots via LED displays.
+        - Optimized a highly available **Cloud Actions** system, for seamless communication between **~10,000** active devices across multiple sites. Achieved an average data sync time of **~30 seconds** using *MQTT* and *Kafka*.
+        - Developed firmware for an in-house *TVM* to automate vehicle entries without operator intervention. Integrated with **Raspberry Pi**, the in-house TVM reduced costs by **5x** compared to third-party solutions while enhancing maintainability and customizability.
+        - Developed firmware for an in-house *Parking Guidance System (PGS)* using ultrasonic sensors to track parking slot availability. The system uses *Modbus* and *TCP* protocols to relay sensor data to a server, which syncs count onto LED displays under **5 seconds**.
         - Developed firmware for an in-house *Health Monitoring Device (HMD)* to track voltage fluctuations in hardware. The firmware written on **ESP32-S3** using *ESP-IDF* framework, retrieves cloud config, monitors fluctuations, and uploads it to the cloud server.
-        - Mentored interns through *KT*, *pair programming*, *code reviews*, and *technical sessions*.
+        - Mentored engineers through *KT*, *pair programming*, *code reviews*, and *technical sessions*. Additionally, **documented** key workflows for their reference and future use.
 
-        **Tags :** Docker | Go | MQTT | Kafka | C++ | Raspberry Pi | ESP-IDF | FreeRTOS
+        **Tags :** Docker | Go | GORM | SQLite | MQTT | Kafka | Linux | C++ | ESP-IDF | FreeRTOS
 #        - Repurposed the existing ANPR system to function as a camera-based Parking Guidance System (PGS) for detecting available parking slots. Utilized machine learning to identify vehicles and match them to predefined slot boundaries, accurately tracking occupancy. The system also captures images when slot statuses change, ensuring comprehensive monitoring of vehicle movements.
 #        - Led the integration of an in-house LED system to boost security and provide real-time status updates for entry/exit processes. Powered by ESP-32 firmware, the system Secure WebSocket communication, enables dynamic message display, and animations.
 #        - Integrated a personalized message feature into the in-house LED system, enabling custom messages during vehicle entry and exit. Users can define their own messages, and society admins can display important notifications to individuals or groups, dynamically based on real-time events.

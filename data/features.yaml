@@ -13,7 +13,7 @@ about:
     - url: https://www.linkedin.com/in/pushpendra-upadhyay-/
       title: pushpendra-upadhyay-
       icon: fab fa-linkedin
-    - url: https://github.com/pushpendra1603
+    - url: https://github.com/pushpendra1603/resume
       title: pushpendra1603
       icon: fab fa-github
   details: |
@@ -31,7 +31,7 @@ skills:
       - SQL
       - Shell script
       - Scheme
-      - Octave
+      # - Octave
       - JavaScript
 
   - groupName: Systems & Tools
@@ -39,7 +39,7 @@ skills:
       - Linux
       - Vim
       - Git
-      - ELK Stack (Elasticsearch - Filebeat - Logstash - Kibana)
+      # - ELK Stack (Elasticsearch - Filebeat - Logstash - Kibana)
       - Docker
       - Jenkins
       - Kubernetes
@@ -50,18 +50,22 @@ skills:
       - MySQL
       - MongoDB
       - Redis
-      - Sqlite
+      - SQLite
+      - Elasticsearch
+      - Filebeat
+      - Logstash
+      - Kibana
       - VS Code
       - Excel
-      - MATLAB
-      - Nginx
+      # - MATLAB
+      # - Nginx
 
   - groupName: Machine Learning
     list:
-      - TensorFlow
+      # - TensorFlow
       - Numpy
-      - scikit-learn
       - pandas
+      - scikit-learn
       - PyTorch
       - Matplotlib
       - seaborn
@@ -71,7 +75,7 @@ skills:
       - Django
       - Flask
       - Gin
-      - Spring
+      # - Spring
       - HTML/CSS
       - Node.js
 
@@ -91,7 +95,12 @@ skills:
       - Orange Pi
 
 interests:
-  - Programming Languages (Rust, Haskell), Databases, Machine & Deep Learning, Cryptography, Technical Books (SICP, DDIA).
+  # - Programming Languages (Rust, Haskell), Databases, Machine & Deep Learning, Cryptography, Technical Books (SICP, DDIA)
+  - Programming Languages
+  - Databases
+  - Machine & Deep Learning
+  - Cryptography
+  - Technical Books (SICP, DDIA)
 
 languages:
   - name: Hindi
