@@ -1,21 +1,5 @@
 - company: Park+
   roles:
-    - role: SDE-1
-      date: August 2022 - September 2023
-      details: |
-        - Improved vehicle identification accuracy by developing a custom algorithm using *Levenshtein string matching* and *Elasticsearch*. Enhanced brand matching to **~99.6%**, model matching from **~91.2% to ~96.4%**, and variant matching from **~50% to ~75%**.
-        - Optimized vehicle service by cutting memory usage from 140 GB to 10 GB, reducing CPU cores from 20 to 2, and pod count from 40 to 10, improving scalability, efficiency, and cost savings. *Mean request latency* was reduced from **~5 seconds to ~300 ms**.
-        - Refactored the core tag and vehicle whitelisting workflow, added unit tests, and applied **SOLID** principles, improving B2B client satisfaction during vehicle onboarding.
-        - Elevated *UX* and increased *user retention* in the B2C app by adding engaging features such as spin-the-wheel, promotional rewards, streak, and pop quizzes, all seamlessly integrated into the vehicle onboarding process for society users.
-
-        **Tags :** Django | unittest | Elasticsearch | Kubernetes | Load Testing | Microservices
-#        - Contributed to the successful launch of the Surajkund Mela project within a tight 15-day timeline. Implemented new workflows, including n-entry per pass systems, centralized cloud servers, and managed devices not on the local network due to infra limitations.
-#        - Created a cron job using Pyppeteer and BeautifulSoup to scrape Cardekho and Carwale for new vehicle brands, models, and variants. This automation significantly streamlined the process of incorporating new vehicle variants into our system, reducing manual effort.
-#        - Created an OS image for Parking Management System (PMS) server, pre-installing essential packages. The image enhances security by tracking user activity and restricting access by roles, and supports remote deployment, reducing on-site setup complexity.
-#        - Integrated a third-party Parking Guidance System (PGS) into the existing Parking Management System (PMS). Slot sensor data was transmitted via webhook APIs, enabling real-time display of available parking slots on LED screens to guide vehicles efficiently.
-#        - Facilitated the migration of the Pass service to a new microservice, introducing new features while maintaining backward compatibility. Migrating from Python to Go improved API performance, significantly reduced latency to around 100ms.
-#        **Tags :** Django | unittest | Elasticsearch | Kubernetes | Load Testing | Microservices | Software integration
-
     - role: SDE-2
       date: September 2023 - Present
       details: |
@@ -31,6 +15,22 @@
 #        - Led the integration of an in-house LED system to boost security and provide real-time status updates for entry/exit processes. Powered by ESP-32 firmware, the system Secure WebSocket communication, enables dynamic message display, and animations.
 #        - Integrated a personalized message feature into the in-house LED system, enabling custom messages during vehicle entry and exit. Users can define their own messages, and society admins can display important notifications to individuals or groups, dynamically based on real-time events.
 #        - Integrated bank APIs to retrieve Fastag exception data, determining whether Fastag can be used for payment. Also integrated data from the bank's SFTP server and implemented APIs to process Fastag payments. # also add the load handled and transaction success rate increased and failed transactions were reduced.
+
+    - role: SDE-1
+      date: August 2022 - September 2023
+      details: |
+        - Improved vehicle identification accuracy by developing a custom algorithm using *Levenshtein string matching* and *Elasticsearch*. Enhanced brand matching to **~99.6%**, model matching from **~91.2% to ~96.4%**, and variant matching from **~50% to ~75%**.
+        - Optimized vehicle service by cutting memory usage from 140 GB to 10 GB, reducing CPU cores from 20 to 2, and pod count from 40 to 10, improving scalability, efficiency, and cost savings. *Mean request latency* was reduced from **~5 seconds to ~300 ms**.
+        - Refactored the core tag and vehicle whitelisting workflow, added unit tests, and applied **SOLID** principles, improving B2B client satisfaction during vehicle onboarding.
+        - Elevated *UX* and increased *user retention* in the B2C app by adding engaging features such as spin-the-wheel, promotional rewards, streak, and pop quizzes, all seamlessly integrated into the vehicle onboarding process for society users.
+
+        **Tags :** Django | unittest | Elasticsearch | Kubernetes | Load Testing | Microservices
+#        - Contributed to the successful launch of the Surajkund Mela project within a tight 15-day timeline. Implemented new workflows, including n-entry per pass systems, centralized cloud servers, and managed devices not on the local network due to infra limitations.
+#        - Created a cron job using Pyppeteer and BeautifulSoup to scrape Cardekho and Carwale for new vehicle brands, models, and variants. This automation significantly streamlined the process of incorporating new vehicle variants into our system, reducing manual effort.
+#        - Created an OS image for Parking Management System (PMS) server, pre-installing essential packages. The image enhances security by tracking user activity and restricting access by roles, and supports remote deployment, reducing on-site setup complexity.
+#        - Integrated a third-party Parking Guidance System (PGS) into the existing Parking Management System (PMS). Slot sensor data was transmitted via webhook APIs, enabling real-time display of available parking slots on LED screens to guide vehicles efficiently.
+#        - Facilitated the migration of the Pass service to a new microservice, introducing new features while maintaining backward compatibility. Migrating from Python to Go improved API performance, significantly reduced latency to around 100ms.
+#        **Tags :** Django | unittest | Elasticsearch | Kubernetes | Load Testing | Microservices | Software integration
 
 - company: AppViewX
   roles:
