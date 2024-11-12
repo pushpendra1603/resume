@@ -39,7 +39,7 @@
       details: |
         - Gained proficiency in **TDD** and applied it using *JUnit* and *Mockito* frameworks, enhancing software reliability and testing efficiency.
         - Prevented **Data Injection** attacks via *bean-level* input validation of the queried value.
-        - Learned about the fundamentals of *certificate lifecycle Management* principles and explored various certificate auto-enrollment protocols, including **ACME**, **EST**, and **SCEP**.
+        - Acquired foundational knowledge in *certificate lifecycle management* and actively explored multiple certificate auto-enrollment protocols, like **ACME**, **EST**, and **SCEP**.
 
         **Tags :** Java | Junit | Mockito | MySQL | MongoDB | PKI | TLS | SSL | Cryptography
 #        - Working with Golang for building the EST client to make the application self serviceable to the end user, enhancing the existing features as well as building the new features.
